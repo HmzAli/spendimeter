@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+
+            <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+                <TableRow>
+                    <TextView
+                            android:text="@string/table_header_item"
+                            android:padding="3dp" />
+                    <TextView
+                            android:text="@string/table_header_price"
+                            android:gravity="right"
+                            android:padding="3dp" />
+                    <TextView
+                            android:text="@string/table_header_price"
+                            android:gravity="right"
+                            android:padding="3dp" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                            android:text="Towel"
+                            android:padding="3dip" />
+                    <TextView
+                            android:text="RM 45.00"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                            android:text="Tomatoes"
+                            android:padding="3dip" />
+                    <TextView
+                            android:text="RM 4.00"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                            android:text="Coke"
+                            android:padding="3dip" />
+                    <TextView
+                            android:text="RM 4.00"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                            android:text="Cheddar cheese"
+                            android:padding="3dip" />
+                    <TextView
+                            android:text="RM 11.00"
+                            android:gravity="right"
+                            android:padding="3dip" />
+                </TableRow>
+            </TableLayout>
+
+
+        <TextView
+                android:id="@+id/text_1"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_message"/>
+
+        <TextView
+                android:id="@+id/text_2"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_message"/>
+
+
+        <Button
+                android:id="@+id/action_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add spending"
+                android:layout_margin="30dp" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

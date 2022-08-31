@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Spendimeter</string>
+    <string name="welcome_message">Welcome to $spendimeter, a place where you can capture &amp; track all your daily spendings.</string>
+    <string name="table_header_item">Item</string>
+    <string name="table_header_price">Price</string>
 </resources>
